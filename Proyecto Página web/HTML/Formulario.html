@@ -1,0 +1,42 @@
+<html>
+
+<head>
+<title>Formulario</title>
+</head>
+
+<body>
+
+<form align="center">
+
+
+<h4 align="center">Step1: Your Details</h4>
+  <label for="firstname">First name</label><input type="text" name="firstname"><br><br>
+  <label for="email">Email</label><input type="email" name="Email" required><br><br>
+  <label for="Phone">Phone</label><input type="tel" name="Phone"><br>
+   
+  <h4 align="center">Step2: Delivery Address</h4>	
+
+  <label for ="mensaje">Address</label><textarea name="mensaje" ></textarea><br><br>
+  <label for="PostCode">PostCode</label><input type="tel" name="PostCode"><br><br>
+  <label for="Country">Country</label>:<select name="Country">
+										<option value="México">México</option>
+										<option value="Honduras">Honduras</option>
+										<option value="Trinidad y Tobado">Trinidad y Tobago</option>
+										<option value="Venezuela">Venezuela</option>
+										<option value="Ecuador">Ecuador</option><br><br>
+	</select>
+										
+  
+  <h4 align="center">Step3: Card Details</h4>
+  <input type="radio" name="Cardtype" value="VISA" ><label for="VISA">VISA</label><img src="https://img.icons8.com/color/20/000000/visa.png">
+  <input type="radio" name="Cardtype" value="PayPal"><label for="PayPal">PayPal</label><img src="https://img.icons8.com/color/20/000000/paypal.png">
+  <input type="radio" name="Cardtype" value="Mastercard" ><label for="Mastercard">Mastercard</label><img src="https://img.icons8.com/cute-clipart/20/000000/mastercard.png"><br><br>
+  <label for="Securitycode">Security code</label><input type="password" name="Securitycode"><br><br>
+  <label for="NameonCard">Name on Card</label><input type="text" name="NameonCard" placeholder="Enter name as on the card"><br><br>
+  <input type="submit" value="Submit">
+  
+</form>
+
+
+</body>
+</html>

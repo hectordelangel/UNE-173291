@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<title>Tarea</title>
+</head>
+
+<body>
+<h1><strong><center>Etiquetas Básicas de HTML</center></strong></h1>
+<table>
+<tr>
+<th><strong>Etiqueta</th></strong>
+<th><strong>Descripción</th></strong>
+</tr>
+
+<tr>
+<td>HTML</td>
+<td>head</td>
+<td>title</td>
+<td>body</td>
+<td>h1,h2...</td>
+<td>a</td>
+<td>table</td>
+<td>p</td>
+<td>br</td>
+<td>img</td>
+<td>ul</td>
+<td>ol</td>
+<td>b/strong</td>
+<td>u</td>
+<td>i/em</td>
+</tr>
+
+<tr>
+<td>indica el comienzo del documento HTML.</td>
+<td>indica que empieza la cabecera de la página.</td>
+<td>Título que tendrá la página</td>
+<td>es el cuerpo de la página, aqui pondremos todo lo que queremos que cargue la página. </td>
+<td>Títulos o encabezados.</td>
+<td>Para insertar un enlace.</td>
+<td>es una tabla, dentro de ella insertamos filas con <em>tr</em> y celdas con <em>td</em>.</td>
+<td>Para insertar un párrafo.</td>
+<td>Para insertar un salto de línea.</td>
+<td>Para insertar una lista desordenada, con la etiqueta <em>li</em> insertamos los datos que tendrá.</td>
+<td>Para insertar una lista ordenada., con la etiqueta <em>li</em> insertamos los datos que tendrá.</td>
+<td>Para hacer que el texto se vea en negritas</td>
+<td>Para hacer que el texto aparezca subrayado</td>
+<td>Para hacer que el texto este en cursiva</td>
+
+</tr>
+
+</table>
+</body>
+
+</html>

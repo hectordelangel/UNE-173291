@@ -1,0 +1,38 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/401/614/small/v384-ning-23b-gradientbg.jpg);
+    background-size: cover;
+}
+
+h1 {
+    background: rgba(245, 246, 250, .3);
+    text-align: center;
+    margin: auto 30%;
+    font-size: 60px;
+    color: black;
+}
+
+#clima7 {
+    margin-top: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.climasInd {
+    font-size: 30px;
+}
+
+.date {
+    background: rgba(179, 255, 0, 0.5);
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.weather,
+.min,
+.max {
+    margin-top: 20px;
+    background: rgba(245, 246, 250, .3);
+}

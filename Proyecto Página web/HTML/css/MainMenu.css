@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Roboto&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.md-pills .nav-link.active {
+    color: #fff;
+    background-color: #616161;
+}
+
+.efectoLinea {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size .6s;
+}
+
+.efectoLinea:hover,
+.efectoLinea:focus {
+    background-size: 100% 2px;
+}
+
+.titulo {
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.textoCeldas {
+    font-size: 16px;
+}
+

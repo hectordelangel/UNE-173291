@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./css/menu.css">
+  <title>Menú</title>
+</head>
+
+<body>
+  <div id="titulo">
+    <h1>Mariskitas</h1>
+    <p id="debajoH"> El mejor restaurante de mariscos en todo Tampico</p>
+  </div>
+  
+  <div id="main">
+  
+    <div class="producto">
+      <div class="imagen">
+	    <img src="https://img-global.cpcdn.com/recipes/3dc547342a81aa97/751x532cq70/jaiba-a-la-frank-foto-principal.jpg">
+	  </div>
+	   <div class="tituloProdu">
+	    <h2>Jaiba a la Frank</h2>
+	    </div>
+	    <div class="precioCantidad">
+	    <p> 2 units <span class="pc">$3.00 <span="pc">4 units $7.00>
+		</div>
+		
+		  <div class="descripcion">
+		  <p>Esta receta es originaria de la ciudad de Tampico, puerto del noreste de México en el estado de Tamaulipas.
+		  Una de las caracteristicas principales de Tampico es su buena cocina.</p>
+		  </div>
+		  
+	<div class="producto">
+      <div class="imagen">
+	    <img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2017/01/coctelcamarones.jpg">
+	  </div>
+	   <div class="tituloProdu">
+	    <h2>Coctel</h2>
+	    </div>
+	    <div class="precioCantidad">
+	    <p> 4 units <span class="pc">$5.00 <span="pc">8 units $9.00>
+		</div>
+		
+		  <div class="descripcion">
+		  <p> Los cocteles de camarón y de almejas son algunos de los cocteles de mariscos más famosos
+		  Se sirve frío y es facil muy delicioso.</p>
+		  </div>
+	</div>
+
+|	<div class="producto">
+      <div class="imagen">
+	    <img src="https://www.laylita.com/recetas/wp-content/uploads/2013/08/1-Cebiche-de-pescado.jpg">
+	  </div>
+	   <div class="tituloProdu">
+	    <h2>Ceviche</h2>
+	    </div>
+	    <div class="precioCantidad">
+	    <p> 3 units <span class="pc">$4.00 <span="pc">4 units $5.00>
+		</div>
+		
+		  <div class="descripcion">
+		  <p>El cebiche, ceviche, sebiche o seviche es un plato consistente en carne marinada ―pescado, mariscos o ambos― en aliños cítricos.</p>
+		  </div>
+	</div>	
+	
+	<div class="producto">
+      <div class="imagen">
+	    <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/01/receta-de-pescado-frito-al-mojo-de-ajo.jpg">
+	  </div>
+	   <div class="tituloProdu">
+	    <h2>Pescado</h2>
+	    </div>
+	    <div class="precioCantidad">
+	    <p> 2 units <span class="pc">$3.00 <span="pc">4 units $7.00>
+		</div>
+		
+		  <div class="descripcion">
+		  <p>Cuando consumes pescado y mariscos con regularidad tienes más probabilidades de bajar de peso, mejorar tu digestión y lucir más joven.</p>
+		  </div>
+	</div>
+	
+	<div class="producto">
+      <div class="imagen">
+	    <img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2019/09/empanadas-atun.jpg">
+	  </div>
+	   <div class="tituloProdu">
+	    <h2>Empanadas</h2>
+	    </div>
+	    <div class="precioCantidad">
+	    <p> 4 units <span class="pc">$8.00 <span="pc">10 units $18.00</p>
+		</div>
+		
+		  <div class="descripcion">
+		  <p>Una empanada es una fina masa de pan. El relleno puede incluir carnes rojas o blancas, pescado, verduras o fruta.</p>
+		  </div>
+	</div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+</body>
+</html>

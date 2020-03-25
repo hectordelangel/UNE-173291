@@ -1,0 +1,206 @@
+html,
+body{
+    width:100%;
+    height: 150%;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: white;
+}
+
+.nav{
+    position: fixed;
+    top:0px;
+    z-index: 100;
+    background-color: yellow;
+    width: 100%;
+    height: 10%;
+    
+}
+.navul {
+     padding:0; margin:0;
+     }
+
+.image{
+    position: absolute;
+    top :0;
+    left: 0;
+    height: 75px;
+    width: 75px; 
+}
+
+.Horario{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: grid;
+
+    text-align: center;
+    grid-column-gap: 16px;
+    grid-row-gap:36px;
+    grid-template-columns: [h]0.25fr [Lun] 1fr [Mar] 1fr [Mier] 1fr [Jueves] 1fr [Vier] 1fr;
+    grid-template-rows: [d] 0.25fr [h15] 1fr [h16] 1fr [h17] 1fr [h18] 1fr [h19] 1fr [h20] 1fr [h21] 1fr [h22];
+}
+
+.MatDes{
+   
+    display: block;
+    
+    margin: 30px;
+    text-align: center;
+    color: white;
+    position: relative;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+.x{
+    position: relative;
+    top: 0px;
+    right: -100px;
+    background-color: white;
+    border:solid 1px black;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+
+    
+}
+
+.m1{
+    background-color: blue;
+}
+
+.m2{
+    background-color: red;
+}
+
+.m3{
+    background-color: green;
+}
+
+.m4{
+    background-color: darkmagenta;
+}
+
+.m5{
+    background-color: pink;
+}
+
+.m6{
+    background-color: peru;
+}
+
+.m7{
+    background-color: paleturquoise;
+}
+
+span{
+    display: block;
+}
+ .hour15{
+     grid-row: h15;
+ }
+
+ .hour16{
+    grid-row: h16;
+}
+
+.hour17{
+    grid-row: h17;
+}
+
+.hour18{
+    grid-row: h18;
+}
+
+.hour19{
+    grid-row: h19;
+}
+
+.hour20{
+    grid-row: h20;
+}
+
+.thour15{
+    grid-row-end: h16;
+}
+.thour16{
+    grid-row-end: h17;
+}
+
+.thour17{
+    grid-row-end: h18;
+}
+
+.thour18{
+    grid-row-end: h19;
+}
+
+.thour19{
+    grid-row-end: h20;
+}
+
+.thour20{
+    grid-row-end: h21;
+}
+.thour21{
+    grid-row-end: h22;
+}
+
+.Lun{
+    grid-column: Lun;
+}
+
+.Mar{
+    grid-column: Mar;
+}
+
+.Mier{
+    grid-column: Mier;
+}
+
+.Jueves{
+    grid-column: Jueves;
+}
+
+.Vier{
+    grid-column: Vier;
+}
+
+.hora1{
+    grid-column: h;
+    grid-row: h15 h16;
+}
+
+.hora2{
+    grid-column: h;
+    grid-row: h16 h17
+}
+
+.hora3{
+    grid-column: h;
+    grid-row: h17 h18;
+}
+
+.hora4{
+    grid-column: h;
+    grid-row: h18 h19;
+}
+
+.hora5{
+    grid-column: h;
+    grid-row: h19 h20;
+}
+
+.hora6{
+    grid-column: h;
+    grid-row: h20 h21;
+}
+.hora7{
+    grid-column: h;
+    grid-row: h21 h22;
+}

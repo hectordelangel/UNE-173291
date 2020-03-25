@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+}
+
+main{  
+  height: 80%;
+}
+
+.Forget{
+    margin-top: 15px;
+  }
+
+.btn {
+    margin-top: 10px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.781);
+    border: 0;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 3px;
+    width: 210px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 155px;
+    
+    -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+  }
+
+  nav p{
+    font-size: 20px;
+    text-align: center;
+}
+
+nav{
+    background-color: tomato;
+}
+
+
+.cuadritos {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: stretch;
+    column-gap: 2.5px;
+    row-gap: 2.5px;
+    font-size: 5em;
+    text-align: center;
+}
+
+.cuad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    /*width: 100px;
+    height: 100px;*/
+}
+
+.verde {
+    background-color: red;
+}
+
+.rojo {
+    background-color: green;
+}

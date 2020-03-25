@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Kurale|Raleway&display=swap');
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/12/13/35/table-3219660_1280.jpg");
+}
+
+#titulo {
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 10px;
+}
+
+#debajoH {
+    color: white;
+    font-style: italic;
+}
+
+#main {
+    padding-top: 10px;
+}
+
+#head {
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    width: 25%;
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+}
+
+.imagen {
+    display: flexbox;
+    width: 150px;
+    height: 150px;
+}
+
+.imagen img {
+    width: 150px;
+    height: 150px;
+}
+
+.producto {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 150px;
+    border: dashed 3px black;
+    margin: 40px 30px;
+}
+
+.tituloProdu {
+    letter-spacing: 10px;
+}
+
+.descripcion {
+    font-weight: bold;
+}
+
+.textoMenu {
+    font-family: 'Raleway', sans-serif;
+}
+
+.pc {
+    font-weight: bold;
+}
