@@ -16,15 +16,7 @@ $("#btnJS").on("click", (e) => {
     $("#JS").removeClass("d-none");
     $("#CSS").addClass("d-none");
     $("#HTML").addClass("d-none");
-    $("#Jquery").addClass("d-none");
-    
-})
-
-$("#btnJQ").on("click", (e) => {
     $("#Jquery").removeClass("d-none");
-    $("#CSS").addClass("d-none");
-    $("#JS").addClass("d-none");
-    $("#HTML").addClass("d-none");
     
 })
 
