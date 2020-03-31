@@ -1,28 +1,43 @@
 $("#btnHTML").on("click", (e) => {
-    $("#CSS").addClass("d-none");
-    $("#JS").addClass("d-none");
-    $("#Jquery").addClass("d-none");
-    $("#HTML").removeClass("d-none");
+    window.setTimeout('FadeOutAll()',50); 
+    window.setTimeout('HTMLFade()',1000); 
 })
 
 $("#btnCSS").on("click", (e) => {
-    $("#CSS").removeClass("d-none");
-    $("#HTML").addClass("d-none");
-    $("#JS").addClass("d-none");
-    $("#Jquery").addClass("d-none");
+    window.setTimeout('FadeOutAll()',50); 
+    window.setTimeout('CSSFade()',1000); 
 })
 
 $("#btnJS").on("click", (e) => {
-    $("#JS").removeClass("d-none");
-    $("#CSS").addClass("d-none");
-    $("#HTML").addClass("d-none");
-    $("#Jquery").removeClass("d-none");
-    
+    window.setTimeout('FadeOutAll()',50); 
+    window.setTimeout('JSFade()',1000); 
 })
 
 $("#btnAll").on("click", (e) => {
-    $("#HTML").removeClass("d-none");
-    $("#JS").removeClass("d-none");
-    $("#CSS").removeClass("d-none");
-    $("#Jquery").removeClass("d-none");
+    window.setTimeout('FadeOutAll()',50); 
+    window.setTimeout('FadeInAll()',1000); 
 })
+
+function HTMLFade(){
+    $("#HTML").fadeIn();      // Function returns the product of a and b
+  }
+  function CSSFade(){
+    $("#CSS").fadeIn();      // Function returns the product of a and b
+  }
+  function JSFade(){
+    $("#JS").fadeIn();  
+    $("#Jquery").fadeIn();     // Function returns the product of a and b
+  }
+ function FadeInAll(){
+    $("#HTML").fadeIn();
+    $("#JS").fadeIn();
+    $("#CSS").fadeIn();
+    $("#Jquery").fadeIn();
+ }
+
+ function FadeOutAll(){
+    $("#HTML").fadeOut();
+    $("#JS").fadeOut();
+    $("#CSS").fadeOut();
+    $("#Jquery").fadeOut();
+ }
